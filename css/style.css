@@ -1,4 +1,19 @@
-.title-style{
-    color: blue;
-    font-size: 48px;
+.title-style {
+  color: blue;
+  font-size: 48px;
+}
+
+.h3-style {
+  --var-color: red;
+}
+
+h3 {
+  color: var(--var-color, green);
+}
+.image-size {
+  width: 300px;
+  height: 200px;
+}
+.image {
+  font-style: italic;
 }
