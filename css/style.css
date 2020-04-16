@@ -42,3 +42,10 @@ h6 {
 .image {
   font-style: italic;
 }
+
+.form-style{
+  background-color: rgb(227, 240, 255);
+  padding:20px;
+  width:600px;
+  text-align:center;
+}
