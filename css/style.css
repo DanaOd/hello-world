@@ -1,22 +1,43 @@
+
+:root {
+  --var-color: #000084;
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat&display=swap" rel="stylesheet" type="text/css"></link>
+
+}
+
+.container-class {
+  margin: 40px 80px 40px 80px;
+  font-family: Montserrat;
+}
+
+p {
+  width: 920px;
+  color: #060e23;
+  font-size: 18px;
+  line-height: 32px;
+}
+
 .title-style {
-  color: blue;
+  color: #071541;
   font-size: 48px;
-}
-
---var-color {
-  color: red;
-}
-
-.h3-style {
-  --var-color: red;
+  font-family: Lato;
 }
 
 h3 {
   color: var(--var-color, green);
+  font-family: Lato;
 }
+
+h6 {
+  color: black;
+  font-family: Lato;
+  font-size:14px;
+}
+
 .image-size {
   width: 300px;
   height: 200px;
+  padding: 10px 0px 30px 0px;
 }
 .image {
   font-style: italic;
