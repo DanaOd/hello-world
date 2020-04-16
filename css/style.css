@@ -4,6 +4,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat&display=swap" rel="stylesheet" type="text/css"></link>
 
 }
+@media(max-width:800px){
+  :root{
+    background:#ECFFA1;
+    font-size: 14px;
+  }
+}
 
 .container-class {
   margin: 40px 80px 40px 80px;
