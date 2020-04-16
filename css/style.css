@@ -3,6 +3,10 @@
   font-size: 48px;
 }
 
+--var-color {
+  color: red;
+}
+
 .h3-style {
   --var-color: red;
 }
