@@ -32,7 +32,9 @@ p {
 h3 {
   color: var(--var-color, green);
   font-family: Lato;
+  font-size: 24px;
   text-transform: capitalize;
+  font-weight: 800;
 }
 
 h6 {
@@ -66,4 +68,11 @@ h6 {
   border-radius: 5px;
   box-shadow: 2px 8px 14px rgba(18, 10, 63, 0.2),
   -10px -10px 8px rgba(240, 247, 255, 0.1)
+}
+.green-card{
+  width: 250px;
+  background-color: rgba(173, 255, 47, 0.4);
+  padding:10px;
+  margin: 10px;
+  float:left;
 }
